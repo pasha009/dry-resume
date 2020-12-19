@@ -1,0 +1,7 @@
+Needs `pdflatex`, `toml`
+
+1. One directory per resume. `mkdir resume_id`. add `resume.tex`
+2. Change `resume.tex` with global variable template `<< key >>` defined in `data.toml`
+3. For array like behaviour, use `<<< ~Array Category~ ~other key1~ ~other key2~ >>`
+4. Run `python parser.py resume_id/resume.tex`
+5. Output file `resume_out.tex`, `resume_out.pdf` in respective directory
