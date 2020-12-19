@@ -1,0 +1,31 @@
+# Comments in TOML look like this.
+
+name = "Aovi Deshpande"
+subtitle = "4th year Undergraduate in Chemical Engineering"
+email = "aovideshpande@gmail.com"
+phone = "8830167207"
+website = "www.aovideshpande.com"
+
+## EDUCATION ######
+
+[[Education]]
+institute = "Shivajirao S. Jondhale College of Engineering"
+subtext = "B.Tech, Department of Chemical Engineering"
+start = 2017
+end = 2021
+location = "Mumbai, India"
+gradetext = "CPI"
+gradevalue = "9.01"
+grademax = "10"
+
+[[Education]]
+institute = "Chanda Devi Saraf High School"
+subtext = "Secondary School, Indian Certificate of Secondary Education"
+start = 2004
+end = 2014
+location = "Nagpur, India"
+gradetext = "Score"
+gradevalue = "92"
+grademax = "100"
+
+## EDUCATION ######
