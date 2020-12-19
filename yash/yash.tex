@@ -1,0 +1,99 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,bottom = 0.6in,left = 0.75in,right = 0.75in,top = 0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{wrapfig}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{amssymb}
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+\def\projectSpace{\vspace{-5pt}}
+\def\projectFirstSpace{\vspace{-18pt}}
+\usepackage{helvet}
+
+\begin{document}
+
+\par{\centering
+        {\Huge  {<<name>>}
+    }\bigskip\par}
+%   \vspace{-8mm}
+{\hfill$\centering \diamond \hspace{2pt} \href{<<website>>}{Website}\hspace{8pt}\diamond \hspace{2pt}\href{mailto:<<email>>}{Email} \hspace{8pt}
+$\hfill}
+\vspace*{-5mm}
+\section*{{\LARGE Education}\xfilll[0pt]{0.5pt}}
+\vspace*{-3mm}
+<<<~Education~\textbf{~institute~}   \hfill{\sl \small ~start~-~end~}\\
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\vspace{-6mm}
+\item ~subtext~, \emph{~gradetext~: ~gradevalue~/~grademax~}
+\end{itemize}>>
+\vspace{-12pt}
+
+
+\section*{\LARGE Internship Experience \xfilll[0pt]{0.5pt}}
+\vspace{-7pt}
+<<<~Internship~\textbf{\large ~title~}\hfill{\sl \small ~period~}\\
+  \href{~guidelink~}{Guide: ~guide~}\hfill{\sl \small \href{~locationlink~}{~location~}}\\\vspace{-15pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item ~point1~
+    \item ~point2~
+    \item ~point3~
+\end{itemize}>>
+
+
+\section*{\LARGE Key Technical Projects\xfilll[0pt]{0.5pt}}
+\projectSpace
+<<<~Project~\textbf{\large ~title~} \textemdash \textit{~related~}\hfill{\sl \small ~period~}\\
+ \href{~guidelink~}{Guide: ~guide~}\hspace{10pt} \href{~reportlink~}{[REPORT]}\hfill{\sl \small \href{~locationlink~}{~location~}}\\\vspace{-15pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+    \item ~point1~
+    \item ~point2~
+    \item ~point3~
+\end{itemize}>>
+\vspace*{-3pt}
+
+\section*{{\LARGE Achievements}\xfilll[0pt]{0.5pt}}
+\vspace*{-5pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+<<<~Achievement~\item ~point~\hfill {\sl \small (~year~)}>>
+\end{itemize}
+
+\vspace*{-5pt}
+\section*{\LARGE Skills\xfilll[0pt]{0.5pt}}
+\vspace{-5pt}
+\begin{tabular}{p{3.5cm} p{13.5cm}}
+  \textbf{Technical} &  <<technical>>\\
+  \textbf{Soft} & <<soft>>\\
+  \textbf{Hobbies} & <<hobbies>>\\
+  \textbf{Talents} & <<talents>>
+\end{tabular}
+
+\vspace{-5pt}
+\section*{\LARGE Positions of Responsibility\xfilll[0pt]{0.5pt}}
+\vspace{-5pt}
+
+\vspace*{-3pt}
+<<<~POR~\textbf{\large ~position~} \hfill{\sl \small ~period~}\\
+\vspace{-18pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+\item ~point1~
+\item ~point2~
+\end{itemize}>>
+
+\section*{\LARGE Extracurriculars\xfilll[0pt]{0.5pt}}
+\vspace{-5pt}
+\begin{itemize}[itemsep = -0.75 mm, leftmargin=*]
+<<<~Extracurricular~\item ~text~\hfill {\sl \small (~year~)}>>
+ \end{itemize}
+
+\end{document}\grid
+
+\grid

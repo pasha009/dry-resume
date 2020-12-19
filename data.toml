@@ -6,6 +6,15 @@ email = "aovideshpande@gmail.com"
 phone = "8830167207"
 website = "www.aovideshpande.com"
 
+## SKILLS #########
+
+technical = "MS-office, AutoCAD, Scilib, Basic Python, DWSIM"
+soft = "Leadership, Communication Skills, Decision making, Social Skills, Time Management"
+hobbies = "Playing Piano, Listening Music, Online surfing, Shopping, Trekking"
+talents = "Stand-up comedy, Negotiation, Event anchoring"
+
+## SKILLS #########
+
 ## EDUCATION ######
 
 [[Education]]
@@ -14,18 +23,96 @@ subtext = "B.Tech, Department of Chemical Engineering"
 start = 2017
 end = 2021
 location = "Mumbai, India"
-gradetext = "CPI"
+gradetext = "CGPA"
 gradevalue = "9.01"
 grademax = "10"
+
+[[Education]]
+institute = "Pandit Bachraj Vyas Vidyalaya"
+subtext = "Higher Secondary, Maharashtra State Board"
+start = 2015
+end = 2017
+location = "Nagpur, India"
+gradetext = "Score"
+gradevalue = "76"
+grademax = "100"
 
 [[Education]]
 institute = "Chanda Devi Saraf High School"
 subtext = "Secondary School, Indian Certificate of Secondary Education"
 start = 2004
-end = 2014
+end = 2015
 location = "Nagpur, India"
 gradetext = "Score"
 gradevalue = "92"
 grademax = "100"
 
 ## EDUCATION ######
+
+## PROJECTS #######
+
+[[Project]]
+title = "Process Simulation" # Be specific
+related = "Process Engineering, Cost Analysis"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Summer 2020"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Created a start to end process simulation of a three component azeotrope system"
+point2 = "The process had nitric acid, HCl and water system which was seperated by a dual pressure swing distillation column"
+point3 = "Cost analysis along with debottelnecking and process optimization for the system was also carried out"
+
+## PROJECTS #######
+
+## INTERNSHIP #####
+
+[[Internship]]
+title = "Rashtriya Chemical Factory" # Mention content
+guide = "Mr. John Doe"
+guidelink = "https://johndoe.com"
+period = "Winter 2019"
+location = "RCF, Mumbai"
+locationlink = "https://rcfmumbai.com"
+point1 = "vocational trainee at ammonia plant"
+point2 = "overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
+point3 = "vocational trainee at ammonia plant"
+
+
+## INTERNSHIP #####
+
+## ACHIEVEMENT ####
+
+[[Achievement]]
+point = "Qualified for Eyantra 2018 stage 2 held by CSE department of IITB among 200 participating colleges" # Not more than length of this point
+year = "2019"
+
+
+[[Achievement]]
+point = "Presented a poster on treatment of “Recycling of non-recyclable plastics” at Thadomal sahani college for Techfest held under IICHE (Indian Institute of Chemical Engineers)"
+year = "2019"
+
+[[Achievement]]
+point = "Secured {\\bf National Rank 1} in \\href{http://www.sofworld.org/nso}{\\textbf{National Science Olympiad}}, conducted by SOF"
+year = "2017"
+
+## ACHIEVEMENT ####
+
+## POR ############
+
+[[POR]]
+position = "Department Co. Technical Head"
+period = "Sept 2019 - Present"
+location = "Mumbai"
+point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
+point2 = "Preparing event reports and guiding all event managers regarding event organization"
+
+## POR ############
+
+## Extracurriculars ###
+[[Extracurricular]]
+text = "Underwent one year long training in Hockey under National Sports Organization"
+year = "2017"
+
+## Extracurriculars ###
