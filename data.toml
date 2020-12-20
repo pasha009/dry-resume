@@ -3,8 +3,10 @@
 name = "Aovi Deshpande"
 subtitle = "4th year Undergraduate in Chemical Engineering"
 email = "aovideshpande@gmail.com"
-phone = "8830167207"
+phone = "+91 8830167207"
 website = "www.aovideshpande.com"
+linkedin = "https://www.linkedin.com/in/aovi-deshpande-9b29a8185"
+linkedintext = "/aovi-deshpande"
 
 ## SKILLS #########
 
@@ -64,9 +66,73 @@ point1 = "Created a start to end process simulation of a three component azeotro
 point2 = "The process had nitric acid, HCl and water system which was seperated by a dual pressure swing distillation column"
 point3 = "Cost analysis along with debottelnecking and process optimization for the system was also carried out"
 
+[[Project]]
+title = "Data Analysis" # Be specific
+related = "Process Engineering, Cost Analysis"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Summer 2020"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Learned about predictive modelling and basics of machine learning."
+point2 = "Applied predictive modelling and statistical methods to analyse  data of an Insurance company and finding out the probability of failure of payment based on past records."
+point3 = "Learned about predictive modelling and basics of machine learning."
+
+[[Project]]
+title = "Heat Exchanger" # Be specific
+related = "Process Engineering, Cost Analysis"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Autumn 2019"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Developed a working model of variable temperature outlet heat exchanger from scratch."
+point2 = "The model was awarded 1st prize in TSEC under IICHE (Indian Institute of Chemical Engineers)."
+point3 = "The project received praises for it's temperature adjustability and simple scalability."
+
+[[Project]]
+title = "Steam Trap Health Monitor" # Be specific
+related = "Process Engineering, Cost Analysis"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Winter 2017"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Developed a Steam Trap Health Monitor which works by classifying vibration patterns."
+point2 = "Lead the team of six throughout the whole development operation."
+point3 = "The model reached the semi finals in Smart India Hackathon 2019 (Hardware Edition)."
+
+[[Project]]
+title = "Smart Bin" # Be specific
+related = "Process Engineering, Cost Analysis"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Spring 2018"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Implemented a SMART bin on Arduino UNO microcontroller platform."
+point2 = "Used ultrasonic sensor interfaces to give automatic functioning and moving abilities."
+point3 = "Added support for automated notifications about bin status through use of a GSM module."
+
+
 ## PROJECTS #######
 
 ## INTERNSHIP #####
+
+[[Internship]]
+title = "Adya Group" # Mention content
+guide = "Mr. John Doe"
+guidelink = "https://johndoe.com"
+period = "Summer 2020"
+location = "Adya, Mumbai"
+locationlink = "https://adyamumbai.com"
+point1 = "Process Simulation  Intern"
+point2 = "learned comprehensively about DWSIM and performed simulation on unit operations and process"
+point3 = "Generated a report on software uses and  limitations along with one practical project."
 
 [[Internship]]
 title = "Rashtriya Chemical Factory" # Mention content
@@ -78,6 +144,17 @@ locationlink = "https://rcfmumbai.com"
 point1 = "vocational trainee at ammonia plant"
 point2 = "overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
 point3 = "vocational trainee at ammonia plant"
+
+[[Internship]]
+title = "Vijay Gas Industries" # Mention content
+guide = "Mr. John Doe"
+guidelink = "https://johndoe.com"
+period = "Winter 2019"
+location = "VGI, Mumbai"
+locationlink = "https://rcfmumbai.com"
+point1 = "Worked as an intern in Ammonia and Nitric Acid manufacturing plant"
+point2 = "Performed detailed analysis on various unit operations and their practical applications"
+point3 = "Generated a comprehensive report on the working of the plan."
 
 
 ## INTERNSHIP #####
@@ -94,8 +171,29 @@ point = "Presented a poster on treatment of “Recycling of non-recyclable plast
 year = "2019"
 
 [[Achievement]]
-point = "Secured {\\bf National Rank 1} in \\href{http://www.sofworld.org/nso}{\\textbf{National Science Olympiad}}, conducted by SOF"
+point = "Presented a review paper design of  horizontal distillation column at ICT Mumbai for OYCE Competition. "
 year = "2017"
+
+[[Achievement]]
+point = "Attended an industry-academy programme at DAE Convention BARC (Bhabha Atomic Research Centre)."
+year = "2017"
+
+[[Achievement]]
+point = "Ranked 1st in stage 1 of Chemophilia organized by Azeotropy, IIT Bombay"
+year = "2017"
+
+[[Achievement]]
+point = "Awarded 1st prize for poster presentation on Science day."
+year = "2017"
+
+[[Achievement]]
+point = "Participated in essay, quiz and debate competition held by office of Deputy Commissioner of central GST"
+year = "2017"
+
+[[Achievement]]
+point = "Team Leader in IICDC (Indian Innovation Challenge Design Contest) for development of SMART Helmet."
+year = "2017"
+
 
 ## ACHIEVEMENT ####
 

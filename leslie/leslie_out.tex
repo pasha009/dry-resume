@@ -1,0 +1,352 @@
+%-------------------------------------
+% LaTeX Resume for Software Engineers
+% Author : Leslie Cheng
+% License : MIT
+%-------------------------------------
+
+\documentclass[letterpaper,12pt]{article}[leftmargin=*]
+
+\usepackage[empty]{fullpage}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fontawesome}
+\usepackage[sfdefault,light]{FiraSans}
+\usepackage[T1]{fontenc}
+\usepackage{anyfontsize}
+\usepackage{xcolor}
+
+%-------------------------------------------------- SETTINGS HERE --------------------------------------------------
+% Header settings
+\def \fullname {Aovi Deshpande}
+\def \subtitle {4th year Undergraduate in Chemical Engineering}
+
+\def \linkedinicon {\faLinkedin}
+\def \linkedinlink {https://www.linkedin.com/in/aovi-deshpande-9b29a8185}
+\def \linkedintext {/aovi-deshpande}
+
+\def \phoneicon {\faPhone}
+\def \phonetext {+91 8830167207}
+
+\def \emailicon {\faEnvelope}
+\def \emaillink {mailto:aovideshpande@gmail.com}
+\def \emailtext {aovideshpande@gmail.com}
+
+% \def \githubicon {\faGithub}
+% \def \githublink {https://github.com/dwight-schrute}
+% \def \githubtext {/dwight-schrute}
+
+% \def \websiteicon {\faGlobe}
+% \def \websitelink {https://google.com/}
+% \def \websitetext {dwightschrute.com}
+
+\def \headertype {\doublecol} % \singlecol or \doublecol
+
+% Misc settings
+\def \entryspacing {-0pt}
+
+\def \bulletstyle {\faAngleRight}
+
+% Define colours
+\definecolor{primary}{HTML}{002334}
+\definecolor{secondary}{HTML}{0D47A1}
+\definecolor{accent}{HTML}{263238}
+\definecolor{links}{HTML}{1565C0}
+
+%------------------------------------------------------------------------------------------------------------------- 
+
+% Defines to make listing easier
+\def \linkedin {\linkedinicon \hspace{3pt}\href{\linkedinlink}{\linkedintext}}
+\def \phone {\phoneicon \hspace{3pt}{ \phonetext}}
+\def \email {\emailicon \hspace{3pt}\href{\emaillink}{\emailtext}}
+\def \github {\githubicon \hspace{3pt}\href{\githublink}{\githubtext}}
+\def \website {\websiteicon \hspace{3pt}\href{\websitelink}{\websitetext}}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.6in}
+\addtolength{\textheight}{1.1in}
+
+% Define the link colours
+\hypersetup{
+    colorlinks=true,
+    urlcolor=links,
+}
+
+% Set the margin alignment 
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-------------------------
+% Custom commands
+
+% Sections
+\renewcommand{\section}[2]{\vspace{5pt}
+  \colorbox{secondary}{\color{white}\raggedbottom\normalsize\textbf{{#1}{\hspace{7pt}#2}}}
+}
+
+% Entry start and end, for spacing
+\newcommand{\resumeEntryStart}{\begin{itemize}[leftmargin=2.5mm]}
+\newcommand{\resumeEntryEnd}{\end{itemize}\vspace{\entryspacing}}
+
+% Itemized list for the bullet points under an entry, if necessary
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=4.5mm]}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+% Resume item
+\renewcommand{\labelitemii}{\bulletstyle}
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Entry with title, subheading, date(s), and location
+\newcommand{\resumeEntryTSDL}[4]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+      \textit{\color{accent}\small#3} & \textit{\color{accent}\small#4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+% Entry with title and date(s)
+\newcommand{\resumeEntryTD}[2]{
+  \vspace{-1pt}\item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+    \end{tabular*}\vspace{-6pt}
+}
+
+% Entry for special (skills)
+\newcommand{\resumeEntryS}[2]{
+  \item[]\small{
+    \textbf{\color{primary}#1 }{ #2 \vspace{-6pt}}
+  }
+}
+
+% Double column header
+\newcommand{\doublecol}[6]{
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    {
+      \begin{tabular}[c]{l}
+        \fontsize{35}{45}\selectfont{\color{primary}{{\textbf{\fullname}}}} \\
+        {\textit{\subtitle}} % You could add a subtitle here
+      \end{tabular}
+    } & {
+      \begin{tabular}[c]{l@{\hspace{1.5em}}l}
+        {\small#4} & {\small#1} \\
+        {\small#5} & {\small#2} \\
+        {\small#6} & {\small#3}
+      \end{tabular}
+    }
+  \end{tabular*}
+}
+
+% Single column header
+\newcommand{\singlecol}[6]{
+  \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    {
+      \begin{tabular}[b]{l}
+        \fontsize{35}{45}\selectfont{\color{primary}{{\textbf{\fullname}}}} \\
+        {\textit{\subtitle}} % You could add a subtitle here
+      \end{tabular}
+    } & {
+      \begin{tabular}[c]{l}
+        {\small#1} \\
+        {\small#2} \\
+        {\small#3} \\
+        {\small#4} \\
+        {\small#5} \\
+        {\small#6}
+      \end{tabular}
+    }
+  \end{tabular*}
+}
+
+\begin{document}
+
+\headertype{\linkedin}{}{}{\phone}{\email}{} % Set the order of items here
+\vspace{3pt} % Set a negative value to push the body up, and the opposite
+
+\section{\faGraduationCap}{Education}
+
+\resumeEntryStart
+  \resumeEntryTSDL
+      {Shivajirao S. Jondhale College of Engineering}{2017 -- 2021}
+      {B.Tech, Department of Chemical Engineering}{Mumbai, India}
+     \item[]\small{\color{primary}CGPA -- { \textbf{9.01/10} \vspace{-6pt}}}
+  \resumeEntryEnd
+  \vspace{3pt}
+
+
+\resumeEntryStart
+  \resumeEntryTSDL
+      {Pandit Bachraj Vyas Vidyalaya}{2015 -- 2017}
+      {Higher Secondary, Maharashtra State Board}{Nagpur, India}
+     \item[]\small{\color{primary}Score -- { \textbf{76/100} \vspace{-6pt}}}
+  \resumeEntryEnd
+  \vspace{3pt}
+
+
+\resumeEntryStart
+  \resumeEntryTSDL
+      {Chanda Devi Saraf High School}{2004 -- 2015}
+      {Secondary School, Indian Certificate of Secondary Education}{Nagpur, India}
+     \item[]\small{\color{primary}Score -- { \textbf{92/100} \vspace{-6pt}}}
+  \resumeEntryEnd
+  \vspace{3pt}
+
+
+  \vspace{4pt}
+  
+\section{\faTrophy}{Internship}
+
+  \resumeEntryStart
+      \resumeEntryTD
+      {Adya Group}{Summer 2020}
+    \resumeItemListStart
+      \resumeItem{Process Simulation  Intern}
+      \resumeItem{learned comprehensively about DWSIM and performed simulation on unit operations and process}
+      \resumeItem{Generated a report on software uses and  limitations along with one practical project.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+  \resumeEntryStart
+      \resumeEntryTD
+      {Rashtriya Chemical Factory}{Winter 2019}
+    \resumeItemListStart
+      \resumeItem{vocational trainee at ammonia plant}
+      \resumeItem{overview of urea, argon, heavy water, carbonmonoxide, steam generation plants}
+      \resumeItem{vocational trainee at ammonia plant}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+  \resumeEntryStart
+      \resumeEntryTD
+      {Vijay Gas Industries}{Winter 2019}
+    \resumeItemListStart
+      \resumeItem{Worked as an intern in Ammonia and Nitric Acid manufacturing plant}
+      \resumeItem{Performed detailed analysis on various unit operations and their practical applications}
+      \resumeItem{Generated a comprehensive report on the working of the plan.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+  
+
+\section{\faTrophy}{Projects}
+
+\resumeEntryStart
+      \resumeEntryTD
+      {Process Simulation}{Summer 2020}
+    \resumeItemListStart
+      \resumeItem {Created a start to end process simulation of a three component azeotrope system}
+      \resumeItem {The process had nitric acid, HCl and water system which was seperated by a dual pressure swing distillation column}
+      \resumeItem {Cost analysis along with debottelnecking and process optimization for the system was also carried out}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+\resumeEntryStart
+      \resumeEntryTD
+      {Data Analysis}{Summer 2020}
+    \resumeItemListStart
+      \resumeItem {Learned about predictive modelling and basics of machine learning.}
+      \resumeItem {Applied predictive modelling and statistical methods to analyse  data of an Insurance company and finding out the probability of failure of payment based on past records.}
+      \resumeItem {Learned about predictive modelling and basics of machine learning.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+\resumeEntryStart
+      \resumeEntryTD
+      {Heat Exchanger}{Autumn 2019}
+    \resumeItemListStart
+      \resumeItem {Developed a working model of variable temperature outlet heat exchanger from scratch.}
+      \resumeItem {The model was awarded 1st prize in TSEC under IICHE (Indian Institute of Chemical Engineers).}
+      \resumeItem {The project received praises for it's temperature adjustability and simple scalability.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+\resumeEntryStart
+      \resumeEntryTD
+      {Steam Trap Health Monitor}{Winter 2017}
+    \resumeItemListStart
+      \resumeItem {Developed a Steam Trap Health Monitor which works by classifying vibration patterns.}
+      \resumeItem {Lead the team of six throughout the whole development operation.}
+      \resumeItem {The model reached the semi finals in Smart India Hackathon 2019 (Hardware Edition).}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+\resumeEntryStart
+      \resumeEntryTD
+      {Smart Bin}{Spring 2018}
+    \resumeItemListStart
+      \resumeItem {Implemented a SMART bin on Arduino UNO microcontroller platform.}
+      \resumeItem {Used ultrasonic sensor interfaces to give automatic functioning and moving abilities.}
+      \resumeItem {Added support for automated notifications about bin status through use of a GSM module.}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+  
+
+\section{\faFlag}{Achievements / Activities}
+\resumeEntryStart
+  \resumeItem {Qualified for Eyantra 2018 stage 2 held by CSE department of IITB among 200 participating colleges}
+  \vspace{-4pt}
+
+  \resumeItem {Presented a poster on treatment of “Recycling of non-recyclable plastics” at Thadomal sahani college for Techfest held under IICHE (Indian Institute of Chemical Engineers)}
+  \vspace{-4pt}
+
+  \resumeItem {Presented a review paper design of  horizontal distillation column at ICT Mumbai for OYCE Competition. }
+  \vspace{-4pt}
+
+  \resumeItem {Attended an industry-academy programme at DAE Convention BARC (Bhabha Atomic Research Centre).}
+  \vspace{-4pt}
+
+  \resumeItem {Ranked 1st in stage 1 of Chemophilia organized by Azeotropy, IIT Bombay}
+  \vspace{-4pt}
+
+  \resumeItem {Awarded 1st prize for poster presentation on Science day.}
+  \vspace{-4pt}
+
+  \resumeItem {Participated in essay, quiz and debate competition held by office of Deputy Commissioner of central GST}
+  \vspace{-4pt}
+
+  \resumeItem {Team Leader in IICDC (Indian Innovation Challenge Design Contest) for development of SMART Helmet.}
+  \vspace{-4pt}
+ 
+  \resumeEntryEnd
+  
+  
+\section{\faPieChart}{Positions of Responsibility}
+  \vspace{3pt}
+ 
+  \resumeEntryStart
+      \resumeEntryTD
+      {Department Co. Technical Head}{Sept 2019 - Present}
+    \resumeItemListStart
+      \resumeItem {Managed social media strategy, branding and street teams to ensure event attendance}
+      \resumeItem {Preparing event reports and guiding all event managers regarding event organization}
+    \resumeItemListEnd
+  \resumeEntryEnd
+
+
+  
+\section{\faGears}{Skills}
+ \resumeEntryStart
+  \resumeEntryS{Technical} {MS-office, AutoCAD, Scilib, Basic Python, DWSIM}
+  \vspace{4pt}
+  \resumeEntryS{Soft}{Leadership, Communication Skills, Decision making, Social Skills, Time Management}
+  \vspace{4pt}
+  \resumeEntryS{Hobbies} {Playing Piano, Listening Music, Online surfing, Shopping, Trekking}
+  \vspace{4pt}
+  \resumeEntryS{Talents} {Stand-up comedy, Negotiation, Event anchoring}
+ \resumeEntryEnd
+
+\end{document}
