@@ -56,4 +56,4 @@ with open(out_file_name, "w") as f:
     f.write(test_string)
 
 out_file_name = os.path.basename(out_file_name)
-subprocess.run(["pdflatex", out_file_name], check=True, cwd=base_dir)
+subprocess.run(["pdflatex", out_file_name], cwd=base_dir)

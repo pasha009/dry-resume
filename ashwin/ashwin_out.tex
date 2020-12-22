@@ -1,0 +1,289 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.5, 1 December 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to
+\definecolor{VividPurple}{HTML}{140E77}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Aovi Deshpande}
+\tagline{4th year Undergraduate in Chemical Engineering}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{2.5cm}{photo}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{aovideshpande@gmail.com}
+    \phone{+91 8830167207}
+  \location{Mumbai, India}
+  
+   \linkedin{www.linkedin.com/in/aovi-deshpande-9b29a8185}
+    \twitter{@aovideshpande}
+   \github{github.com/aovi14} % I'm just making this up though.
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+%% \cvsection[page1sidebar]{CAREER OBJECTIVE}
+%% \begin{itemize}
+%% \item A Talented Final Year B.E student with a strong academic background with the ability to think through a problem coupled with the confidence to make ideas heard.I am currently looking for a internship opportunity that will allow me to work alongside an expert team of talented individual's .
+%% \end{itemize}
+
+\cvsection[page1sidebar_out]{Education}
+
+\cvevent{B.Tech, Department of Chemical Engineering}{9.01/10}{2017 -- 2021}{Shivajirao S. Jondhale College of Engineering}
+
+
+\cvevent{Higher Secondary, Maharashtra State Board}{76/100}{2015 -- 2017}{Pandit Bachraj Vyas Vidyalaya}
+
+
+\cvevent{Secondary School, Indian Certificate of Secondary Education}{92/100}{2004 -- 2015}{Chanda Devi Saraf High School}
+
+
+\cvsection{INTERNSHIPS}
+ 
+\cvevent{Adya Group}{}{Summer 2020}{Adya, Mumbai}
+\begin{itemize}
+\item Process Simulation  Intern
+\item learned comprehensively about DWSIM and performed simulation on unit operations and process
+\item Generated a report on software uses and  limitations along with one practical project.
+\end{itemize}
+
+\divider
+
+ 
+\cvevent{Rashtriya Chemical Factory}{}{Winter 2019}{RCF, Mumbai}
+\begin{itemize}
+\item vocational trainee at ammonia plant
+\item overview of urea, argon, heavy water, carbonmonoxide, steam generation plants
+\item vocational trainee at ammonia plant
+\end{itemize}
+
+\divider
+
+ 
+\cvevent{Vijay Gas Industries}{}{Winter 2019}{VGI, Mumbai}
+\begin{itemize}
+\item Worked as an intern in Ammonia and Nitric Acid manufacturing plant
+\item Performed detailed analysis on various unit operations and their practical applications
+\item Generated a comprehensive report on the working of the plan.
+\end{itemize}
+
+\divider
+
+
+%% \cvsection{Languages}
+%% \cvskill{C \& C++}{3}
+%% % \divider
+%% \cvskill{Python}{4}
+%% % \divider
+%% \cvskill{R}{3}
+%% \cvskill{Java}{3}
+%% \cvskill{Kotlin}{4}
+%% \cvskill{Rust}{3}
+%% \cvskill{SQL}{5}
+
+\cvsection{Technical SKills}
+ \cvtag{MS-office} 
+ \cvtag{AutoCAD} 
+ \cvtag{Scilib} 
+ \cvtag{Python} 
+ \cvtag{DWSIM} 
+ \cvtag{Aspen Hysys} 
+ \cvtag{MS-office} 
+ \cvtag{AutoCAD} 
+ \cvtag{Scilib} 
+ \cvtag{Python} 
+ \cvtag{DWSIM} 
+ \cvtag{Aspen Hysys} 
+ \cvtag{MS-office} 
+ \cvtag{AutoCAD} 
+ \cvtag{Scilib} 
+ \cvtag{Python} 
+ \cvtag{Aspen Hysys} 
+ \cvtag{MS-office} 
+ \cvtag{AutoCAD} 
+ \cvtag{Scilib} 
+ \cvtag{Python} 
+ \cvtag{DWSIM} 
+ \cvtag{Aspen Hysys} 
+ \cvtag{MS-office} 
+ \cvtag{AutoCAD} 
+ \cvtag{Scilib} 
+ \cvtag{Python} 
+ \cvtag{DWSIM} 
+ \cvtag{Aspen Hysys} 
+
+
+\cvsection[page2sidebar_out]{Projects}
+ 
+\cvevent{Process Simulation}{}{Summer 2020}{}
+\begin{itemize}
+\item Created a start to end process simulation of a three component azeotrope system
+\item The process had nitric acid, HCl and water system which was seperated by a dual pressure swing distillation column
+\item Cost analysis along with debottelnecking and process optimization for the system was also carried out
+\end{itemize}
+\divider
+
+ 
+\cvevent{Data Analysis}{}{Summer 2020}{}
+\begin{itemize}
+\item Learned about predictive modelling and basics of machine learning.
+\item Applied predictive modelling and statistical methods to analyse  data of an Insurance company and finding out the probability of failure of payment based on past records.
+\item Learned about predictive modelling and basics of machine learning.
+\end{itemize}
+\divider
+
+ 
+\cvevent{Heat Exchanger}{}{Autumn 2019}{}
+\begin{itemize}
+\item Developed a working model of variable temperature outlet heat exchanger from scratch.
+\item The model was awarded 1st prize in TSEC under IICHE (Indian Institute of Chemical Engineers).
+\item The project received praises for it's temperature adjustability and simple scalability.
+\end{itemize}
+\divider
+
+ 
+\cvevent{Steam Trap Health Monitor}{}{Winter 2017}{}
+\begin{itemize}
+\item Developed a Steam Trap Health Monitor which works by classifying vibration patterns.
+\item Lead the team of six throughout the whole development operation.
+\item The model reached the semi finals in Smart India Hackathon 2019 (Hardware Edition).
+\end{itemize}
+\divider
+
+
+\cvsection{ACHIEVEMENTS}
+
+%% \cvachievement{\faTrophy}{INDO-NEPAL YOUTH SPORTS}{Be a part of the Runner-Up Indian Youth Futsal Team at Kathmandu,Nepal}
+\begin{itemize}
+ 
+\item Qualified for Eyantra 2018 stage 2 held by CSE department of IITB among 200 participating colleges
+
+ 
+\item Presented a poster on treatment of “Recycling of non-recyclable plastics” at Thadomal sahani college for Techfest held under IICHE (Indian Institute of Chemical Engineers)
+
+ 
+\item Presented a review paper design of  horizontal distillation column at ICT Mumbai for OYCE Competition. 
+
+ 
+\item Attended an industry-academy programme at DAE Convention BARC (Bhabha Atomic Research Centre).
+
+ 
+\item Ranked 1st in stage 1 of Chemophilia organized by Azeotropy, IIT Bombay
+
+ 
+\item Awarded 1st prize for poster presentation on Science day.
+
+ 
+\item Participated in essay, quiz and debate competition held by office of Deputy Commissioner of central GST
+
+ 
+\item Team Leader in IICDC (Indian Innovation Challenge Design Contest) for development of SMART Helmet.
+
+\end{itemize}
+
+
+%\divider
+%\cvsection{A Day of My Life}
+
+% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+% Some ad-hoc tweaking to adjust the labels so that they don't overlap
+%\wheelchart{1.5cm}{0.5cm}{%
+ % 25/10em/accent!30/\footnotesize\\[1ex]Sleeping \& dreaming about work,
+ % 20/9em/accent!60/\footnotesize\\[1ex]Spending time with family,
+ % 5/13em/accent!10/\footnotesize\\[1ex]Hobbies,
+ % 20/15em/accent!40/\footnotesize\\[1ex]Working with stakeholders to define smooth business continuity,
+ % 30/10em/accent/\footnotesize\\[1ex]Overseeing provision of end-user services\, including help desk and technical support services,
+ % 5/8em/accent!20/\footnotesize\\[1ex]Planning out task for upcoming day
+%}
+
+%% \clearpage
+
+% \cvsection[page2sidebar]{Publications}
+% 
+% \nocite{*}
+% 
+% \printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+% 
+% \divider
+% 
+% \printbibliography[heading=pubtype,title={\printinfo{\faFileTextO}{Journal Articles}}, type=article]
+% 
+% \divider
+% 
+% \printbibliography[heading=pubtype,title={\printinfo{\faGroup}{Conference Proceedings}},type=inproceedings]
+% 
+%% If the NEXT page doesn't start with a \cvsection but you'd
+%% still like to add a sidebar, then use this command on THIS
+%% page to add it. The optional argument lets you pull up the
+%% sidebar a bit so that it looks aligned with the top of the
+%% main column.
+%% \addnextpagesidebar[-1ex]{page2sidebar_out}
+
+
+\end{document}

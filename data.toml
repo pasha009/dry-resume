@@ -1,21 +1,15 @@
-# Comments in TOML look like this.
 
 name = "Aovi Deshpande"
 subtitle = "4th year Undergraduate in Chemical Engineering"
 email = "aovideshpande@gmail.com"
 phone = "+91 8830167207"
 website = "www.aovideshpande.com"
-linkedin = "https://www.linkedin.com/in/aovi-deshpande-9b29a8185"
+linkedin = "www.linkedin.com/in/aovi-deshpande-9b29a8185"
 linkedintext = "/aovi-deshpande"
+twitter = "@aovideshpande"
+github = "github.com/aovi14"
+location = "Mumbai, India"
 
-## SKILLS #########
-
-technical = "MS-office, AutoCAD, Scilib, Basic Python, DWSIM"
-soft = "Leadership, Communication Skills, Decision making, Social Skills, Time Management"
-hobbies = "Playing Piano, Listening Music, Online surfing, Shopping, Trekking"
-talents = "Stand-up comedy, Negotiation, Event anchoring"
-
-## SKILLS #########
 
 ## EDUCATION ######
 
@@ -105,18 +99,18 @@ point1 = "Developed a Steam Trap Health Monitor which works by classifying vibra
 point2 = "Lead the team of six throughout the whole development operation."
 point3 = "The model reached the semi finals in Smart India Hackathon 2019 (Hardware Edition)."
 
-[[Project]]
-title = "Smart Bin" # Be specific
-related = "Process Engineering, Cost Analysis"
-guide = "Prof. John Doe"
-guidelink = "https://johndoe.com"
-reportlink = "https://www.github.com/aovi14/process_sim"
-period = "Spring 2018"
-location = "Mumbai"
-locationlink = "https://www.mumbai.com"
-point1 = "Implemented a SMART bin on Arduino UNO microcontroller platform."
-point2 = "Used ultrasonic sensor interfaces to give automatic functioning and moving abilities."
-point3 = "Added support for automated notifications about bin status through use of a GSM module."
+# [[Project]]
+# title = "Smart Bin" # Be specific
+# related = "Process Engineering, Cost Analysis"
+# guide = "Prof. John Doe"
+# guidelink = "https://johndoe.com"
+# reportlink = "https://www.github.com/aovi14/process_sim"
+# period = "Spring 2018"
+# location = "Mumbai"
+# locationlink = "https://www.mumbai.com"
+# point1 = "Implemented a SMART bin on Arduino UNO microcontroller platform."
+# point2 = "Used ultrasonic sensor interfaces to give automatic functioning and moving abilities."
+# point3 = "Added support for automated notifications about bin status through use of a GSM module."
 
 
 ## PROJECTS #######
@@ -206,6 +200,27 @@ location = "Mumbai"
 point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
 point2 = "Preparing event reports and guiding all event managers regarding event organization"
 
+[[POR]]
+position = "Department Co. Technical Head"
+period = "Sept 2019 - Present"
+location = "Mumbai"
+point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
+point2 = "Preparing event reports and guiding all event managers regarding event organization"
+
+[[POR]]
+position = "Department Co. Technical Head"
+period = "Sept 2019 - Present"
+location = "Mumbai"
+point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
+point2 = "Preparing event reports and guiding all event managers regarding event organization"
+
+[[POR]]
+position = "Department Co. Technical Head"
+period = "Sept 2019 - Present"
+location = "Mumbai"
+point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
+point2 = "Preparing event reports and guiding all event managers regarding event organization"
+
 ## POR ############
 
 ## Extracurricular ###
@@ -214,3 +229,185 @@ text = "Underwent one year long training in Hockey under National Sports Organiz
 year = "2017"
 
 ## Extracurricular ###
+
+## Area of Interest ##
+
+[[Interest]]
+text = "Sitting"
+
+[[Interest]]
+text = "Shopping"
+
+[[Interest]]
+text = "Shitting"
+
+[[Interest]]
+text = "Studying"
+
+## Area of Interest ##
+
+## SKILLS #########
+
+[[Technical]]
+text = "MS-office"
+
+[[Technical]]
+text = "AutoCAD"
+
+[[Technical]]
+text = "Scilib"
+
+[[Technical]]
+text = "Python"
+
+[[Technical]]
+text = "DWSIM"
+
+[[Technical]]
+text = "Aspen Hysys"
+
+[[Technical]]
+text = "MS-office"
+
+[[Technical]]
+text = "AutoCAD"
+
+[[Technical]]
+text = "Scilib"
+
+[[Technical]]
+text = "Python"
+
+[[Technical]]
+text = "DWSIM"
+
+[[Technical]]
+text = "Aspen Hysys"
+
+[[Technical]]
+text = "MS-office"
+
+[[Technical]]
+text = "AutoCAD"
+
+[[Technical]]
+text = "Scilib"
+
+[[Technical]]
+text = "Python"
+
+[[Technical]]
+text = "Aspen Hysys"
+
+[[Technical]]
+text = "MS-office"
+
+[[Technical]]
+text = "AutoCAD"
+
+[[Technical]]
+text = "Scilib"
+
+[[Technical]]
+text = "Python"
+
+[[Technical]]
+text = "DWSIM"
+
+[[Technical]]
+text = "Aspen Hysys"
+
+[[Technical]]
+text = "MS-office"
+
+[[Technical]]
+text = "AutoCAD"
+
+[[Technical]]
+text = "Scilib"
+
+[[Technical]]
+text = "Python"
+
+[[Technical]]
+text = "DWSIM"
+
+[[Technical]]
+text = "Aspen Hysys"
+
+###
+
+[[Soft]]
+text = "Leadership"
+
+[[Soft]]
+text = "Communication"
+
+[[Soft]]
+text = "Decision Making"
+
+[[Soft]]
+text = "Social Skills"
+
+[[Soft]]
+text = "Time Management"
+
+###
+
+[[Hobbies]]
+text = "Playing Piano"
+
+[[Hobbies]]
+text = "Listening Music"
+
+[[Hobbies]]
+text = "Online Surfing"
+
+[[Hobbies]]
+text = "Shopping"
+
+[[Hobbies]]
+text = "Trekking"
+
+[[Hobbies]]
+text = "Reading Books"
+
+###
+
+[[Talents]]
+text = "Stand-up Comedy"
+
+[[Talents]]
+text = "Negotiation"
+
+[[Talents]]
+text = "Event Anchoring"
+
+[[Talents]]
+text = "Bargaining"
+
+[[Talents]]
+text = "Fancy Dress Competition"
+
+## SKILLS #########
+
+[[Interests]]
+text = "Sitting"
+
+[[Interests]]
+text = "Shopping"
+
+[[Interests]]
+text = "Shopping"
+
+[[Interests]]
+text = "Shopping"
+
+[[Interests]]
+text = "Shopping"
+
+## Certificates ####
+
+[[Certificates]]
+text =  "Aliquam feugiat tellus ut neque"
+rating = "5"
