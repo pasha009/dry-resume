@@ -4,7 +4,7 @@ import sys
 import subprocess
 import toml
 
-with open("data.toml") as f:
+with open("data.toml", encoding="utf-8", errors="ignore") as f:
     parsed_toml = toml.load(f)
 
 # print(parsed_toml)
@@ -17,7 +17,7 @@ print(base_dir)
 print(in_file_name)
 print(out_file_name)
 
-with open(in_file_name) as f:
+with open(in_file_name, encoding="utf-8", errors="ignore") as f:
     test_string = f.read()
 
 def replacer(mo: re.Match):
@@ -52,7 +52,7 @@ def replacer(mo: re.Match):
 
 test_string = re.sub("<<(.*?)>>", replacer, test_string, flags=re.S)
 
-with open(out_file_name, "w") as f:
+with open(out_file_name, "w", encoding="utf-8", errors="ignore") as f:
     f.write(test_string)
 
 out_file_name = os.path.basename(out_file_name)

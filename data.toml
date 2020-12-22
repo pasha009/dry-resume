@@ -215,7 +215,7 @@ point1 = "Managed social media strategy, branding and street teams to ensure eve
 point2 = "Preparing event reports and guiding all event managers regarding event organization"
 
 [[POR]]
-position = "Department Co. Technical Head"
+position = "CEO, Cat Inc"
 period = "Sept 2019 - Present"
 location = "Mumbai"
 point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
@@ -223,12 +223,6 @@ point2 = "Preparing event reports and guiding all event managers regarding event
 
 ## POR ############
 
-## Extracurricular ###
-[[Extracurricular]]
-text = "Underwent one year long training in Hockey under National Sports Organization"
-year = "2017"
-
-## Extracurricular ###
 
 ## Area of Interest ##
 
@@ -411,3 +405,26 @@ text = "Shopping"
 [[Certificates]]
 text =  "Aliquam feugiat tellus ut neque"
 rating = "5"
+
+## Extracurricular ###
+
+[[Extracurricular]]
+text = "Underwent one year long training in Hockey under National Sports Organization"
+year = "2017"
+
+[[Extracurricular]]
+text = "Underwent one year long training in Hockey under National Sports Organization"
+year = "2017"
+
+[[Extracurricular]]
+text = "Underwent one year long training in Hockey under National Sports Organization"
+year = "2017"
+
+[[Extracurricular]]
+text = "Underwent one year long training in Hockey under National Sports Organization"
+year = "2017"
+
+[[Extracurricular]]
+text = "Underwent one year long training in Hockey under National Sports Organization"
+year = "2017"
+## Extracurricular ###
