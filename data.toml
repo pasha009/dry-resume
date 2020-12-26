@@ -2,7 +2,7 @@
 name = "Aovi Deshpande"
 subtitle = "4th year Undergraduate in Chemical Engineering"
 email = "aovideshpande@gmail.com"
-phone = "+91 8830167207"
+phone = "+91 7385707478"
 website = "www.aovideshpande.com"
 linkedin = "www.linkedin.com/in/aovi-deshpande-9b29a8185"
 linkedintext = "/aovi-deshpande"
@@ -48,7 +48,7 @@ grademax = "100"
 ## PROJECTS #######
 
 [[Project]]
-title = "Process Simulation" # Be specific
+title = "Detailed Process Simulation for Azeotropic sysstems." # Be specific
 related = "Process Engineering, Cost Analysis"
 guide = "Prof. John Doe"
 guidelink = "https://johndoe.com"
@@ -74,8 +74,8 @@ point2 = "Applied predictive modelling and statistical methods to analyse  data 
 point3 = "Learned about predictive modelling and basics of machine learning."
 
 [[Project]]
-title = "Heat Exchanger" # Be specific
-related = "Process Engineering, Cost Analysis"
+title = "Design of a cost effective Heat Exchanger" # Be specific
+related = "Process Equipment design"
 guide = "Prof. John Doe"
 guidelink = "https://johndoe.com"
 reportlink = "https://www.github.com/aovi14/process_sim"
@@ -87,15 +87,15 @@ point2 = "The model was awarded 1st prize in TSEC under IICHE (Indian Institute 
 point3 = "The project received praises for it's temperature adjustability and simple scalability."
 
 [[Project]]
-title = "Steam Trap Health Monitor" # Be specific
-related = "Process Engineering, Cost Analysis"
+title = "Designing a hardware for Steam Trap Health Monitoring." # Be specific
+related = "Process Equipment design"
 guide = "Prof. John Doe"
 guidelink = "https://johndoe.com"
 reportlink = "https://www.github.com/aovi14/process_sim"
 period = "Winter 2017"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
-point1 = "Developed a Steam Trap Health Monitor which works by classifying vibration patterns."
+point1 = "Developed a Steam Trap Health Monitor device which works by classifying vibration patterns."
 point2 = "Lead the team of six throughout the whole development operation."
 point3 = "The model reached the semi finals in Smart India Hackathon 2019 (Hardware Edition)."
 
@@ -119,33 +119,33 @@ point3 = "The model reached the semi finals in Smart India Hackathon 2019 (Hardw
 
 [[Internship]]
 title = "Adya Group" # Mention content
-guide = "Mr. John Doe"
-guidelink = "https://johndoe.com"
+guide = "Mr.Indraneel Chatterji"
+guidelink = "https://www.linkedin.com/in/indraneelchatterjee/"
 period = "Summer 2020"
 location = "Adya, Mumbai"
-locationlink = "https://adyamumbai.com"
-point1 = "Process Simulation  Intern"
+locationlink = "https://adhya.com"
+point1 = "Process Simulation Intern"
 point2 = "learned comprehensively about DWSIM and performed simulation on unit operations and process"
 point3 = "Generated a report on software uses and  limitations along with one practical project."
 
 [[Internship]]
 title = "Rashtriya Chemical Factory" # Mention content
-guide = "Mr. John Doe"
-guidelink = "https://johndoe.com"
+guide = "Mr. Vivek Newalkar"
+guidelink = "https://www.linkedin.com/in/vivek-newalkar-b68aab85/"
 period = "Winter 2019"
-location = "RCF, Mumbai"
-locationlink = "https://rcfmumbai.com"
+location = "RCF, Alibagh"
+locationlink = "https://www.rcfltd.com/"
 point1 = "vocational trainee at ammonia plant"
 point2 = "overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
 point3 = "vocational trainee at ammonia plant"
 
 [[Internship]]
 title = "Vijay Gas Industries" # Mention content
-guide = "Mr. John Doe"
-guidelink = "https://johndoe.com"
+guide = "Mr.Deepak Sawant"
+#guidelink = "https://johndoe.com"
 period = "Winter 2019"
-location = "VGI, Mumbai"
-locationlink = "https://rcfmumbai.com"
+location = "VGI, Ambernath"
+locationlink = "http://www.vgiammonia.com/"
 point1 = "Worked as an intern in Ammonia and Nitric Acid manufacturing plant"
 point2 = "Performed detailed analysis on various unit operations and their practical applications"
 point3 = "Generated a comprehensive report on the working of the plan."
@@ -159,6 +159,9 @@ point3 = "Generated a comprehensive report on the working of the plan."
 point = "Qualified for Eyantra 2018 stage 2 held by CSE department of IITB among 200 participating colleges" # Not more than length of this point
 year = "2019"
 
+[[Achievement]]
+point = "Ranked 1st in stage 1 of Chemophilia organized by Azeotropy, IIT Bombay"
+year = "2019"
 
 [[Achievement]]
 point = "Presented a poster on treatment of “Recycling of non-recyclable plastics” at Thadomal sahani college for Techfest held under IICHE (Indian Institute of Chemical Engineers)"
@@ -166,84 +169,83 @@ year = "2019"
 
 [[Achievement]]
 point = "Presented a review paper design of  horizontal distillation column at ICT Mumbai for OYCE Competition. "
-year = "2017"
+year = "2019"
 
 [[Achievement]]
 point = "Attended an industry-academy programme at DAE Convention BARC (Bhabha Atomic Research Centre)."
-year = "2017"
-
-[[Achievement]]
-point = "Ranked 1st in stage 1 of Chemophilia organized by Azeotropy, IIT Bombay"
-year = "2017"
+year = "2018"
 
 [[Achievement]]
 point = "Awarded 1st prize for poster presentation on Science day."
-year = "2017"
+year = "2018"
+
+[[Achievement]]
+point = "Team Leader in IICDC (Indian Innovation Challenge Design Contest) for development of SMART Helmet."
+year = "2018"
 
 [[Achievement]]
 point = "Participated in essay, quiz and debate competition held by office of Deputy Commissioner of central GST"
 year = "2017"
 
-[[Achievement]]
-point = "Team Leader in IICDC (Indian Innovation Challenge Design Contest) for development of SMART Helmet."
-year = "2017"
+
 
 
 ## ACHIEVEMENT ####
 
 ## POR ############
 
-[[POR]]
+[[PositionsofResponsibility]]
 position = "Department Co. Technical Head"
-period = "Sept 2019 - Present"
+period = "Sept 2019 - "
 location = "Mumbai"
 point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
-point2 = "Preparing event reports and guiding all event managers regarding event organization"
+point2 = "Conducted a three level technical quiz and held a debate competition. "
+point2 = "Prepared event reports and guided event managers."
 
 [[POR]]
-position = "Department Co. Technical Head"
+position = "Ambassador relation officer"
+period = "Sept 2020 - Present"
+location = "Mumbai"
+point1 = "Helping out with the student outreach program of the chemtech foundation ( One of India's leading Industry association)."
+point2 = "Managing and coordinating with the campus ambassador for annual series of international exhibitions and conferences."
+point3 = "Motivating students for maximum participation and keep the record of the same."
+[[PositionsofResponsibility]]
+position = "Student Mentor"
 period = "Sept 2019 - Present"
 location = "Mumbai"
-point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
-point2 = "Preparing event reports and guiding all event managers regarding event organization"
+point1 = "Served as a peer mentor for 8 students in guiding their academics and college life."
+point2 = "Counseled students individually and in group sessions to build personal and academic motivation."
+point3 = "Guided them in thei research-oriented work."
 
-[[POR]]
-position = "Department Co. Technical Head"
-period = "Sept 2019 - Present"
+[[PositionsofResponsibility]]
+position = "Magazine Editor"
+period = "May 2020 - Aug 2020"
 location = "Mumbai"
-point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
-point2 = "Preparing event reports and guiding all event managers regarding event organization"
-
-[[POR]]
-position = "CEO, Cat Inc"
-period = "Sept 2019 - Present"
-location = "Mumbai"
-point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
-point2 = "Preparing event reports and guiding all event managers regarding event organization"
-
+point1 = "Worked on the annual Chemical Department magazine at college level.  "
+point2 = "Did extensive research on content along with graphic editing for magazine."
 ## POR ############
 
 
 ## Area of Interest ##
 
 [[Interest]]
-text = "Sitting"
+text = "Stock exchange"
 
 [[Interest]]
-text = "Shopping"
+text = "Historic architectutre and Mythology"
 
 [[Interest]]
-text = "Shitting"
+text = "Quantum Mechanics"
 
 [[Interest]]
-text = "Studying"
+text = "Studying Graphs and charts"
 
 ## Area of Interest ##
 
 ## SKILLS #########
 
 [[Technical]]
-text = "MS-office"
+text = "MS-Excel"
 
 [[Technical]]
 text = "AutoCAD"
@@ -258,76 +260,8 @@ text = "Python"
 text = "DWSIM"
 
 [[Technical]]
-text = "Aspen Hysys"
+text = "Basic Aspen Hysys"
 
-[[Technical]]
-text = "MS-office"
-
-[[Technical]]
-text = "AutoCAD"
-
-[[Technical]]
-text = "Scilib"
-
-[[Technical]]
-text = "Python"
-
-[[Technical]]
-text = "DWSIM"
-
-[[Technical]]
-text = "Aspen Hysys"
-
-[[Technical]]
-text = "MS-office"
-
-[[Technical]]
-text = "AutoCAD"
-
-[[Technical]]
-text = "Scilib"
-
-[[Technical]]
-text = "Python"
-
-[[Technical]]
-text = "Aspen Hysys"
-
-[[Technical]]
-text = "MS-office"
-
-[[Technical]]
-text = "AutoCAD"
-
-[[Technical]]
-text = "Scilib"
-
-[[Technical]]
-text = "Python"
-
-[[Technical]]
-text = "DWSIM"
-
-[[Technical]]
-text = "Aspen Hysys"
-
-[[Technical]]
-text = "MS-office"
-
-[[Technical]]
-text = "AutoCAD"
-
-[[Technical]]
-text = "Scilib"
-
-[[Technical]]
-text = "Python"
-
-[[Technical]]
-text = "DWSIM"
-
-[[Technical]]
-text = "Aspen Hysys"
 
 ###
 
@@ -377,54 +311,41 @@ text = "Negotiation"
 [[Talents]]
 text = "Event Anchoring"
 
-[[Talents]]
-text = "Bargaining"
-
-[[Talents]]
-text = "Fancy Dress Competition"
 
 ## SKILLS #########
 
-[[Interests]]
-text = "Sitting"
+##[[Interests]]
+#text = "Sitting"
 
-[[Interests]]
-text = "Shopping"
-
-[[Interests]]
-text = "Shopping"
-
-[[Interests]]
-text = "Shopping"
-
-[[Interests]]
-text = "Shopping"
+#[[Interests]]
+#text = "Shopping"
 
 ## Certificates ####
 
 [[Certificates]]
-text =  "Aliquam feugiat tellus ut neque"
-rating = "5"
+text =  "NPTEL course on natural gas Engineering ( IIT ghuwati)"
+rating = "67.9%"
 
+[[Certificates]]
+text =  "Course on heatlh and chemicals(john hopkins uinversity)"
+rating = "91%"
+
+[[Certificates]]
+text =  "Course on Data analysis ( Intershala)"
+rating = ""
+
+[[Certificates]]
+text =  "Webinar on Zero LIquid waste discharge"
+rating = ""
+
+[[Certificates]]
+text =  " Quiz on Industrial safety by TKIET"
+rating = ""
+
+[[Certificates]]
+text =  "Webinar on  Design of shell and tube heat exchanger."
+rating = ""
 ## Extracurricular ###
 
-[[Extracurricular]]
-text = "Underwent one year long training in Hockey under National Sports Organization"
-year = "2017"
 
-[[Extracurricular]]
-text = "Underwent one year long training in Hockey under National Sports Organization"
-year = "2017"
-
-[[Extracurricular]]
-text = "Underwent one year long training in Hockey under National Sports Organization"
-year = "2017"
-
-[[Extracurricular]]
-text = "Underwent one year long training in Hockey under National Sports Organization"
-year = "2017"
-
-[[Extracurricular]]
-text = "Underwent one year long training in Hockey under National Sports Organization"
-year = "2017"
 ## Extracurricular ###
