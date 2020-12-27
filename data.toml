@@ -4,7 +4,7 @@ subtitle = "4th year Undergraduate in Chemical Engineering"
 email = "aovideshpande@gmail.com"
 phone = "+91 7385707478"
 website = "www.aovideshpande.com"
-linkedin = "www.linkedin.com/in/aovi-deshpande-9b29a8185"
+linkedin = "https://www.linkedin.com/in/aovi-deshpande-9b29a8185"
 linkedintext = "/aovi-deshpande"
 twitter = "@aovideshpande"
 github = "github.com/aovi14"
@@ -20,7 +20,7 @@ start = 2017
 end = 2021
 location = "Mumbai, India"
 gradetext = "CGPA"
-gradevalue = "9.01"
+gradevalue = "9.06"
 grademax = "10"
 
 [[Education]]
@@ -56,22 +56,22 @@ reportlink = "https://www.github.com/aovi14/process_sim"
 period = "Summer 2020"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
-point1 = "Created a start to end process simulation of a three component azeotrope system"
+point1 = "Created a start to end process simulation of a three component azeotropic system"
 point2 = "The process had nitric acid, HCl and water system which was seperated by a dual pressure swing distillation column"
 point3 = "Cost analysis along with debottelnecking and process optimization for the system was also carried out"
 
 [[Project]]
 title = "Data Analysis" # Be specific
-related = "Process Engineering, Cost Analysis"
+related = "Predictive Modelling"
 guide = "Prof. John Doe"
 guidelink = "https://johndoe.com"
 reportlink = "https://www.github.com/aovi14/process_sim"
 period = "Summer 2020"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
-point1 = "Learned about predictive modelling and basics of machine learning."
-point2 = "Applied predictive modelling and statistical methods to analyse  data of an Insurance company and finding out the probability of failure of payment based on past records."
-point3 = "Learned about predictive modelling and basics of machine learning."
+point1 = "Learned about predictive modelling and basics of machine learning"
+point2 = "Applied predictive modelling and statistical methods to analyse data of an Insurance company and finding out the probability of failure of payment based on past records"
+point3 = ""
 
 [[Project]]
 title = "Cost-Effective Heat Exchanger" # Be specific
@@ -82,9 +82,9 @@ reportlink = "https://www.github.com/aovi14/process_sim"
 period = "Autumn 2019"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
-point1 = "Developed a working model of variable temperature outlet heat exchanger from scratch."
-point2 = "The model was awarded 1st prize in TSEC under IICHE (Indian Institute of Chemical Engineers)."
-point3 = "The project received praises for it's temperature adjustability and simple scalability."
+point1 = "Developed a working model of variable temperature outlet shell and tube heat exchanger from scratch"
+point2 = "The model was awarded 1st prize in TSEC under IICHE (Indian Institute of Chemical Engineers)"
+point3 = "The project received praises for its temperature adjustability and simple scalability"
 
 [[Project]]
 title = "Steam Trap Health Monitoring." # Be specific
@@ -125,8 +125,8 @@ period = "Summer 2020"
 location = "Adya, Mumbai"
 locationlink = "https://adhya.com"
 point1 = "Process Simulation Intern"
-point2 = "learned comprehensively about DWSIM and performed simulation on unit operations and process"
-point3 = "Generated a report on software uses and  limitations along with one practical project."
+point2 = "Learned comprehensively about DWSIM and performed simulation on unit operations and process"
+point3 = "Generated a report on software uses and limitations along with one practical project"
 
 [[Internship]]
 title = "Rashtriya Chemical Factory" # Mention content
@@ -135,20 +135,20 @@ guidelink = "https://www.linkedin.com/in/vivek-newalkar-b68aab85/"
 period = "Winter 2019"
 location = "RCF, Alibagh"
 locationlink = "https://www.rcfltd.com/"
-point1 = "vocational trainee at ammonia plant"
-point2 = "overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
-point3 = "vocational trainee at ammonia plant"
+point1 = "Vocational trainee at ammonia plant"
+point2 = "Overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
+point3 = "Got familiarized with Digital Control Systems and their effects on pneumatic valves"
 
 [[Internship]]
 title = "Vijay Gas Industries" # Mention content
-guide = "Mr.Deepak Sawant"
-guidelink = "https://johndoe.com"
+guide = "Mr. Deepak Sawant"
+guidelink = "https://www.linkedin.com"
 period = "Winter 2019"
 location = "VGI, Ambernath"
 locationlink = "http://www.vgiammonia.com/"
 point1 = "Worked as an intern in Ammonia and Nitric Acid manufacturing plant"
 point2 = "Performed detailed analysis on various unit operations and their practical applications"
-point3 = "Generated a comprehensive report on the working of the plan."
+point3 = "Generated a comprehensive report on the working of the plan"
 
 
 ## INTERNSHIP #####
@@ -197,35 +197,35 @@ year = "2017"
 
 [[POR]]
 position = "Department Co. Technical Head"
-period = "Sept 2019 - Present"
+period = "Sept 2019 - Jan 2020"
 location = "Mumbai"
 point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
-point2 = "Conducted a three level technical quiz and held a debate competition. "
-point3 = "Prepared event reports and guided event managers."
+point2 = "Conducted a three level technical quiz and held a debate competition"
+point3 = "Prepared event reports and guided event managers"
 
 [[POR]]
-position = "Ambassador relation officer"
+position = "Ambassador Relation Officer"
 period = "Sept 2020 - Present"
 location = "Mumbai"
-point1 = "Helping out with the student outreach program of the chemtech foundation ( One of India's leading Industry association)."
-point2 = "Managing and coordinating with the campus ambassador for annual series of international exhibitions and conferences."
-point3 = "Motivating students for maximum participation and keep the record of the same."
+point1 = "Helping out with the Student Outreach Program of Chemtech Foundation (India's leading Industry association)"
+point2 = "Coordinating with the campus ambassador for annual series of international exhibitions and conferences"
+point3 = "Motivating students for maximum participation and keeping the record of the same"
 
 [[POR]]
 position = "Student Mentor"
 period = "Sept 2019 - Present"
 location = "Mumbai"
-point1 = "Served as a peer mentor for 8 students in guiding their academics and college life."
-point2 = "Counseled students individually and in group sessions to build personal and academic motivation."
-point3 = "Guided them in thei research-oriented work."
+point1 = "Served as a peer mentor for 8 students in guiding their academics and college life"
+point2 = "Counseled students individually and in group sessions to build personal and academic motivation"
+point3 = "Guided them in their research-oriented work"
 
 [[POR]]
 position = "Magazine Editor"
 period = "May 2020 - Aug 2020"
 location = "Mumbai"
-point1 = "Worked on the annual Chemical Department magazine at college level.  "
-point2 = "Did extensive research on content along with graphic editing for magazine."
-point3 = "Did extensive research on content along with graphic editing for magazine."
+point1 = "Worked on the annual Chemical Department magazine at college level"
+point2 = "Did extensive research on content along with graphic editing for magazine"
+point3 = "Coordinating with the faculty and preparing the content accordingly"
 
 ## POR ############
 
@@ -327,28 +327,41 @@ text = "Shopping"
 ## Certificates ####
 
 [[Certificates]]
-text =  "NPTEL course on natural gas Engineering (IIT Guhuwati)"
+text =  "NPTEL course on Natural Gas Engineering "
 rating = "67.9%"
+year = "2019"
+location = "IIT Guhuwati"
 
 [[Certificates]]
-text =  "Course on heatlh and chemicals(john hopkins uinversity)"
+text =  "Course on Health and Chemicals"
 rating = "91%"
+year = "2020"
+location = "John Hopkins University"
 
 [[Certificates]]
-text =  "Course on Data analysis ( Intershala)"
+text =  "Course on Data analysis"
 rating = ""
+year = "2020"
+location = "Internshala"
 
 [[Certificates]]
-text =  "Webinar on Zero LIquid waste discharge"
+text =  "Webinar on Zero Liquid Waste Discharge"
 rating = ""
+year = "2020"
+location = "Bhartiya Vidhyapeeth"
 
 [[Certificates]]
-text =  " Quiz on Industrial safety by TKIET"
+text =  "Quiz on Industrial Safety"
 rating = ""
+year = "2020"
+location = "Tatya Saheb Kore Institute of Engineering and Technology"
 
-[[Certificates]]
-text =  "Webinar on  Design of shell and tube heat exchanger."
-rating = ""
+
+# [[Certificates]]
+# text =  "Webinar on  Design of shell and tube heat exchanger."
+# rating = ""
+# year = "2020"
+# location = "Empress Mall"
 
 
 ## Extracurricular ###
