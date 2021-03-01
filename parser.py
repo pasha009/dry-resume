@@ -7,6 +7,7 @@ import toml
 with open("data.toml", encoding="utf-8", errors="ignore") as f:
     parsed_toml = toml.load(f)
 
+
 # print(parsed_toml)
 in_file_name = sys.argv[1]
 base_dir = os.path.dirname(in_file_name)

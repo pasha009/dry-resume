@@ -1,5 +1,5 @@
 
-name = "Aovi Deshpande"
+name = "AOVI DESHPANDE"
 subtitle = "4th year Undergraduate in Chemical Engineering"
 email = "aovideshpande@gmail.com"
 phone = "+91 7385707478"
@@ -20,7 +20,7 @@ start = 2017
 end = 2021
 location = "Mumbai, India"
 gradetext = "CGPA"
-gradevalue = "9.06"
+gradevalue = "9.20"
 grademax = "10"
 
 [[Education]]
@@ -47,6 +47,33 @@ grademax = "100"
 
 ## PROJECTS #######
 
+
+[[Project]]
+title = "Manufacturing of Sodium metabisulphite" # Be specific
+related = "Process Engineering"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Autumn 2020 - Present"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Comparing various Industrial methods for production of sodium metabisulphite ($Na_2S_2O_5$) which is used as an antioxidant, preserverative, leather, corrosion-inhibiter, reducing agent, coagulant, etc."
+point2 = "Studying and simulating an end-to-end production of the best process (based on thermodynamic feasibility, equilibrim conditions, better crystal growth) on Aspen Plus"
+point3 = "Checking for the best yield of crystals by trying out various schemes along with modelling and generating PFD, P\\&ID and analyzing the cost and comparing it with the traditional method employed"
+
+[[Project]]
+title = "Case study on In situ Product Recovery" 
+related = "Downstream Processing"
+guide = "Prof. John Doe"
+guidelink = "https://johndoe.com"
+reportlink = "https://www.github.com/aovi14/process_sim"
+period = "Autumn 2020 - Present"
+location = "Mumbai"
+locationlink = "https://www.mumbai.com"
+point1 = "Studied product poisoining and removal techniques in case of biocatalyst for ABE fermentation and lactic acid production processes"
+point2 = "Understood various unit operations employed for ISPR like Vacuum Fermentation, Perstraction, Countercurrent Chromatography, etc."
+point3 = "Reviewed some generalizations to be adopted as ISPR methods, based on product properties"
+
 [[Project]]
 title = "Process Simulation for Azeotropic Systems" # Be specific
 related = "Process Engineering, Cost Analysis"
@@ -56,9 +83,9 @@ reportlink = "https://www.github.com/aovi14/process_sim"
 period = "Summer 2020"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
-point1 = "Created a start to end process simulation of a three component azeotropic system"
-point2 = "The process had nitric acid, HCl and water system which was seperated by a dual pressure swing distillation column"
-point3 = "Cost analysis along with debottelnecking and process optimization for the system was also carried out"
+point1 = "Created an end-to-end process simulation of a three component azeotropic system"
+point2 = "The process consisted of nitric acid, HCl and water system which was separated by a dual pressure swing distillation column"
+point3 = "Analyzed the cost along with optimizing process for the system"
 
 [[Project]]
 title = "Data Analysis" # Be specific
@@ -70,7 +97,7 @@ period = "Summer 2020"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
 point1 = "Learned about predictive modelling and basics of machine learning"
-point2 = "Applied predictive modelling and statistical methods to analyse data of an Insurance company and finding out the probability of failure of payment based on past records"
+point2 = "Applied predictive modelling and statistical methods to analyse data of an insurance company and determining the probability of failure of payment based on past records"
 point3 = ""
 
 [[Project]]
@@ -84,7 +111,7 @@ location = "Mumbai"
 locationlink = "https://www.mumbai.com"
 point1 = "Developed a working model of variable temperature outlet shell and tube heat exchanger from scratch"
 point2 = "The model was awarded 1st prize in TSEC under IICHE (Indian Institute of Chemical Engineers)"
-point3 = "The project received praises for its temperature adjustability and simple scalability"
+point3 = "Implemented features for temperature adjustability and simple scalability"
 
 [[Project]]
 title = "Steam Trap Health Monitoring." # Be specific
@@ -92,12 +119,12 @@ related = "Process Equipment Design"
 guide = "Prof. John Doe"
 guidelink = "https://johndoe.com"
 reportlink = "https://www.github.com/aovi14/process_sim"
-period = "Winter 2017"
+period = "Summer 2019"
 location = "Mumbai"
 locationlink = "https://www.mumbai.com"
-point1 = "Developed a Steam Trap Health Monitor device which works by classifying vibration patterns."
-point2 = "Lead the team of six throughout the whole development operation."
-point3 = "The model reached the semi finals in Smart India Hackathon 2019 (Hardware Edition)."
+point1 = "Developed a Steam Trap Health Monitor device which works on Piezoelectric effect"
+point2 = "Led the team of six throughout the whole development operation"
+point3 = "The project reached the semi finals in Smart India Hackathon 2019 (Hardware Edition)"
 
 # [[Project]]
 # title = "Smart Bin" # Be specific
@@ -120,35 +147,38 @@ point3 = "The model reached the semi finals in Smart India Hackathon 2019 (Hardw
 [[Internship]]
 title = "Adya Group" # Mention content
 guide = "Mr. Indraneel Chatterji"
+position = "Summer Intern"
 guidelink = "https://www.linkedin.com/in/indraneelchatterjee/"
 period = "Summer 2020"
 location = "Adya, Mumbai"
 locationlink = "https://adhya.com"
 point1 = "Process Simulation Intern"
-point2 = "Learned comprehensively about DWSIM and performed simulation on unit operations and process"
+point2 = "Learned comprehensively about DWSIM and performed simulations of unit operations"
 point3 = "Generated a report on software uses and limitations along with one practical project"
 
 [[Internship]]
-title = "Rashtriya Chemical Factory" # Mention content
+title = "Rashtriya Chemical \\& Fertilizers Ltd" # Mention content
 guide = "Mr. Vivek Newalkar"
+position = "Vocational Trainee at Ammonia Plant"
 guidelink = "https://www.linkedin.com/in/vivek-newalkar-b68aab85/"
 period = "Winter 2019"
-location = "RCF, Alibagh"
+location = "RCF, Thal"
 locationlink = "https://www.rcfltd.com/"
-point1 = "Vocational trainee at ammonia plant"
-point2 = "Overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
-point3 = "Got familiarized with Digital Control Systems and their effects on pneumatic valves"
+point1 = "Studied the process of production of Ammonia by Haber's Process"
+point2 = "Got familiarized with Digital Control Systems and their effects on pneumatic valves"
+point3 = "Overview of urea, argon, heavy water, carbonmonoxide, steam generation plants"
 
 [[Internship]]
 title = "Vijay Gas Industries" # Mention content
 guide = "Mr. Deepak Sawant"
+position = "Management Trainee"
 guidelink = "https://www.linkedin.com"
 period = "Winter 2019"
 location = "VGI, Ambernath"
 locationlink = "http://www.vgiammonia.com/"
 point1 = "Worked as an intern in Ammonia and Nitric Acid manufacturing plant"
-point2 = "Performed detailed analysis on various unit operations and their practical applications"
-point3 = "Generated a comprehensive report on the working of the plan"
+point2 = "Performed detailed analysis on Ammonia and Nitric Acid manufacturing and various unit operations in the process"
+point3 = "Generated a comprehensive report on the working of the plant"
 
 
 ## INTERNSHIP #####
@@ -172,9 +202,9 @@ year = "2019"
 point = "Presented a review paper on design of horizontal distillation column at ICT Mumbai" 
 year = "2019"
 
-[[Achievement]]
-point = "Attended an industry-academy programme at DAE Convention, Bhabha Atomic Research Centre."
-year = "2018"
+# [[Achievement]]
+# point = "Attended an industry-academy programme at DAE Convention, Bhabha Atomic Research Centre."
+# year = "2018"
 
 [[Achievement]]
 point = "Awarded 1st prize for poster presentation on Science day."
@@ -184,9 +214,9 @@ year = "2018"
 point = "Led a team of 4 for Indian Innovation Challenge Design Contest in developing a SMART Helmet."
 year = "2018"
 
-[[Achievement]]
-point = "Participated in essay, quiz and debate competition held by office of Deputy Commissioner"
-year = "2017"
+# [[Achievement]]
+# point = "Participated in essay, quiz and debate competition held by office of Deputy Commissioner"
+# year = "2017"
 
 
 
@@ -196,20 +226,13 @@ year = "2017"
 ## POR ############
 
 [[POR]]
-position = "Department Co. Technical Head"
-period = "Sept 2019 - Jan 2020"
-location = "Mumbai"
-point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
-point2 = "Conducted a three level technical quiz and held a debate competition"
-point3 = "Prepared event reports and guided event managers"
-
-[[POR]]
 position = "Ambassador Relation Officer"
 period = "Sept 2020 - Present"
 location = "Mumbai"
 point1 = "Helping out with the Student Outreach Program of Chemtech Foundation (India's leading Industry association)"
 point2 = "Coordinating with the campus ambassador for annual series of international exhibitions and conferences"
 point3 = "Motivating students for maximum participation and keeping the record of the same"
+summary = "Ambassador Relation Officer for Student Outreach Program at ChemTech Foundation"
 
 [[POR]]
 position = "Student Mentor"
@@ -218,6 +241,7 @@ location = "Mumbai"
 point1 = "Served as a peer mentor for 8 students in guiding their academics and college life"
 point2 = "Counseled students individually and in group sessions to build personal and academic motivation"
 point3 = "Guided them in their research-oriented work"
+summary = "Student Mentor appointed by the University to guide 8 students in their college life"
 
 [[POR]]
 position = "Magazine Editor"
@@ -226,6 +250,16 @@ location = "Mumbai"
 point1 = "Worked on the annual Chemical Department magazine at college level"
 point2 = "Did extensive research on content along with graphic editing for magazine"
 point3 = "Coordinating with the faculty and preparing the content accordingly"
+summary = "Magazine Editor for College Chemical Department Magazine"
+
+[[POR]]
+position = "Department Co Technical Head"
+period = "Sept 2019 - Jan 2020"
+location = "Mumbai"
+point1 = "Managed social media strategy, branding and street teams to ensure event attendance"
+point2 = "Conducted a three level technical quiz and held a debate competition"
+point3 = "Prepared event reports and guided event managers"
+summary = "Department Co Technical Head"
 
 ## POR ############
 
@@ -249,7 +283,13 @@ text = "Studying Graphs and charts"
 ## SKILLS #########
 
 [[Technical]]
-text = "MS-Excel"
+text = "Lean six-sigma Yellow Belt (Ongoing)"
+
+[[Technical]]
+text = "Basic Aspen Plus"
+
+[[Technical]]
+text = "DWSIM"
 
 [[Technical]]
 text = "AutoCAD"
@@ -261,10 +301,7 @@ text = "Scilib"
 text = "Python"
 
 [[Technical]]
-text = "DWSIM"
-
-[[Technical]]
-text = "Basic Aspen Hysys"
+text = "MS-Excel"
 
 
 ###
@@ -279,10 +316,10 @@ text = "Communication"
 text = "Decision Making"
 
 [[Soft]]
-text = "Social Skills"
+text = "Time Management"
 
 [[Soft]]
-text = "Time Management"
+text = "Negotiation"
 
 ###
 
@@ -327,31 +364,31 @@ text = "Shopping"
 ## Certificates ####
 
 [[Certificates]]
-text =  "NPTEL course on Natural Gas Engineering "
+text =  "Natural Gas Engineering "
 rating = "67.9%"
 year = "2019"
 location = "IIT Guhuwati"
 
 [[Certificates]]
-text =  "Course on Health and Chemicals"
+text =  "Health and Chemicals"
 rating = "91%"
 year = "2020"
 location = "John Hopkins University"
 
 [[Certificates]]
-text =  "Course on Data analysis"
+text =  "Data analysis"
 rating = ""
 year = "2020"
 location = "Internshala"
 
 [[Certificates]]
-text =  "Webinar on Zero Liquid Waste Discharge"
+text =  "Zero Liquid Waste Discharge"
 rating = ""
 year = "2020"
 location = "Bhartiya Vidhyapeeth"
 
 [[Certificates]]
-text =  "Quiz on Industrial Safety"
+text =  "Industrial Safety"
 rating = ""
 year = "2020"
 location = "Tatya Saheb Kore Institute of Engineering and Technology"
